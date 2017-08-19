@@ -7,7 +7,7 @@
     "start": "DEBUG=\"flow-api:*\" node build/index.js",
     "test": "jest",
     "production": "node build/index.js",
-    "build": "babel source --presets babel-preset-es2015 --out-dir build"
+    "postinstall": "gulp default"
   },
   "keywords": [],
   "author": "",
