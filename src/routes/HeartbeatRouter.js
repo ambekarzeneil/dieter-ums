@@ -11,8 +11,8 @@ export default class HeartbeatRouter {
         this.path = path;
 
         this.init();
-    }
 
+    }
 
     init() : void {
         this.router.get('/', this.getHeartbeat)

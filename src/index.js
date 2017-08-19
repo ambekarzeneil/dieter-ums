@@ -1,6 +1,7 @@
 // @flow
 
-'use strict'
+'use strict';
+import "babel-polyfill";
 
 import * as http from 'http';
 import debug from 'debug';
